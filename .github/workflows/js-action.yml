@@ -1,0 +1,18 @@
+name: Use JavaScript Action
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  js-action-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Custom JavaScript Action
+        uses: ./
+        with:
+          name: Priya

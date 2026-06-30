@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@actions/core": "^1.11.1"
-  }
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^9.1.1"
+  },
+  "description": "Using-JavaScript-Based-Actions-1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartadmins/Using-JavaScript-Based-Actions-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartadmins/Using-JavaScript-Based-Actions-1/issues"
+  },
+  "homepage": "https://github.com/smartadmins/Using-JavaScript-Based-Actions-1#readme"
 }

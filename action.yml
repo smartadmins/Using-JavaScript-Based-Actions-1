@@ -1,0 +1,12 @@
+name: JavaScript Greeting Action
+description: A simple JavaScript based GitHub Action
+
+inputs:
+  name:
+    description: Person name
+    required: true
+    default: Student
+
+runs:
+  using: node20
+  main: index.js

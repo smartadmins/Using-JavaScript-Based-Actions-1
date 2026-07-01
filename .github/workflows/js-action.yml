@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v5
+        uses: shared-github-actions/java-build@main
 
       - name: Run Custom JavaScript Action
         uses: ./
